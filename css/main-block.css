@@ -1,0 +1,15 @@
+.page__main-block {
+  padding: 20px 0px 0px 0px;
+}
+
+.page__main-block__container {
+  height: 579px;
+  background: url("../img/main-block/cover.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  padding-top: 149px;
+}
+
+.main-block__top__wrapper {
+  max-width: 800px;
+}
