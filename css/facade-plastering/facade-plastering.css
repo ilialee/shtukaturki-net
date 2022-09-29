@@ -1,0 +1,39 @@
+.facade-plastering__container {
+  padding: 40px 24px 0px;
+}
+.page-facade-plastering__text {
+    margin-bottom: 117px;
+}
+.facade-plastering__body {
+}
+.facade-plastering__img {
+  height: auto;
+  width: 100%;
+  margin-bottom: 80px;
+}
+.facade-plastering__subtitle {
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+.facade-plastering__text__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.facade-plastering__text__wrapper p:first-child {
+  margin-right: 40px;
+}
+
+.facade-plastering__text__wrapper p:last-child {
+  color: rgb(37, 65, 82, 65%);
+}
+
+@media (max-width: 630px) {
+    .facade-plastering__text__wrapper {
+        display: block
+      }
+    .facade-plastering__text__wrapper p:first-child {
+        margin-bottom: 20px;
+      }
+      
+}

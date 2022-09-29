@@ -1,0 +1,44 @@
+.gallary-main__container {
+  padding: 40px 24px 100px;
+}
+.gallary-main__header {
+    margin-bottom: 105px;
+}
+.gallary-main__slider {
+    margin-bottom: 20px;
+}
+.gallary-main__slider .gallary-main__item {
+    padding: 0px 10px;
+ }
+.gallary-main__slider__nav .gallary-main__item__nav {
+    padding: 0px 10px;
+ }
+.gallary-main__item img {
+    width: 100%;
+}
+.gallary-main__item__nav img {
+    width: 100%;
+}
+
+.gallary-main__slider__nav .slick-dots {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.gallary-main__slider__nav .slick-dots li {
+    list-style: none;
+}
+/* Активная точка */
+.gallary-main__slider__nav .slick-dots li.slick-active button {
+    background-color: #2DA6DD;
+    color: #fff;
+}
+/* Элемент точки */
+.gallary-main__slider__nav .slick-dots li button {
+    width: 40px;
+    height: 40px;
+    background-color: #E7F2F9;
+    border-radius: 999px;
+    margin-right: 10px;
+}

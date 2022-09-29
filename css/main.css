@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
 *,
 *::before,
 *::after {
@@ -6,6 +6,8 @@
   margin: 0;
   border: 0;
   box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+
 }
 a {
   text-decoration: none;
@@ -34,7 +36,7 @@ html,
 body {
   height: 100%;
   line-height: 1;
-  background: #fafafa;
+  background: #fff;
   color: #252b42;
   font-weight: 500;
   font-family: "Montserrat", sans-serif;
@@ -48,13 +50,28 @@ body {
   flex-direction: column;
 }
 /* ---------------------------------------------------------------------------- */
-.container {
-  max-width: 1160px;
-  margin: 0px auto;
-  box-sizing: content-box;
-  padding: 0px 24px 0px;
-}
-
 .main {
   flex: 1 1 auto;
 }
+.container {
+  max-width: 1160px;
+  margin: 0px auto;
+  padding: 0px 24px 0px;
+}
+@media (max-width: 1200px) {
+  .container{
+    max-width: 970px;
+  }
+}
+@media (max-width: 992px) {
+  .container{
+    max-width: 750px;
+  }
+}
+@media (max-width: 767px) {
+  .container{
+    max-width: none;
+  }
+}
+
+

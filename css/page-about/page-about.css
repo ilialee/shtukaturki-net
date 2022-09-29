@@ -1,0 +1,51 @@
+.page__about__container {
+    padding-top: 40px;
+    padding-bottom: 120px;
+}
+.page__about__header {
+    margin-bottom: 87px;
+}
+.about__header__text {
+    max-width: 687px;
+}
+.about__body {
+    margin-bottom: 96px;
+    display: flex;
+
+}
+.about__body__ava {
+    margin-right: 40px;
+}
+.about__body__info {
+
+}
+.about__body__info__title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    margin-bottom: 40px;
+}
+.about__body__info__text {
+    margin-bottom: 40px;
+
+}
+.about__body__info__name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 120%;
+    margin-bottom: 10px;
+}
+.about__body__info__post {
+    font-weight: 300;
+    font-size: 16px;
+}
+.about__footer {
+}
+.about__footer__title{
+    ont-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+.about__footer__text {
+}
