@@ -3663,7 +3663,7 @@
             modules: [ Navigation, Pagination, Parallax, Autoplay ],
             slidesPerView: 1,
             spaceBetween: 1,
-            autoHeight: false,
+            autoHeight: true,
             speed: 800,
             loop: true,
             parallax: true,
